@@ -1,0 +1,1 @@
+## Azure Resource Group with random_string from random module as resource group name
