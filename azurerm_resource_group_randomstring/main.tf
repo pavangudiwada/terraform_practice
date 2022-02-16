@@ -6,8 +6,8 @@ terraform {
     }
 
     random = {
-        source = "hashicorp/random"
-        version = "3.1.0"
+      source  = "hashicorp/random"
+      version = "3.1.0"
     }
   }
 }
@@ -17,8 +17,8 @@ provider "azurerm" {
 }
 
 resource "random_string" "name" {
-  length = 20
-  special = true
+  length           = 20
+  special          = true
   override_special = "-"
 }
 
