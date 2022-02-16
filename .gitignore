@@ -1,0 +1,5 @@
+*.tfstate*
+*.hcl
+.terraform
+*.tfvars
+
